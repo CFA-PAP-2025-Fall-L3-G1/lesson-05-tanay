@@ -1,0 +1,64 @@
+--------------- In-class Exercises ----------------
+Exercise 1
+Under the h1 tag, before the closing main tag:
+1. Add a form tag with id: bday-form
+2. In between the form tags, add a label and input pair to get the user's name
+Use the for and id attributes to bind the label and input together
+
+Exercise 2
+Before the closing form tag:  
+1. Add a label and input pair to get the user's email address
+Use the correct value for the type attribute
+2. Add a label and input pair to get the date of the party
+Use the correct value for the type attribute
+
+Exercise 3
+Before the closing form tag:  
+1. Add an input tag with type set to: submit
+Add the value attribute and set its value to: "Generate Invitation"
+Add the class attribute and set its value to: button
+
+Exercise 4
+Before the submit input:
+1. Add a label for a textarea input with text "Party Details"
+Use the correct value for the type attribute  
+2. Add a textarea tag with id: party-details
+Add the rows attribute, set its value to: 10
+
+Exercise 5
+Inside the form tag:  
+1. Add the method attribute with value: POST
+2. Add the action attribute set its value to: 
+https://formsubmit.co/your@email.com
+3. Inside each input tag (excluding the submit button), and the textarea tag:  
+Add the name attribute, 
+set its value to a name that makes sense to you or copy the value of the input's id.
+
+--------------- Practice Session ----------------
+
+Keep your CSS skills fresh. Review Level 2 materials if necessary.
+
+Exercise 1
+Add a label and input pair to get the time of the party
+Make sure to use the correct value for the type attribute
+Refer to the list of values for the type attribute on the slides, or search online
+
+Exercise 2
+Style the form inputs. Use all your CSS skills to create the style you see in the included screenshots.
+
+Hints:
+
+1. In style.css, select the labels and inputs together using the group selector (a comma).
+Look at the screenshot of the form
+Which styles do the labels and inputs share?
+Remember: display inline versus block, and margin: auto for centering
+You can add the rule box-sizing: border-box; to account for different padding on inputs and labels
+
+2. Select the inputs alone and set margin-bottom, padding
+
+3. Select the labels alone, set padding, and adjust the font size
+
+4. Select the submit input by its class and style it to look like the example 
+Use the hover pseudo class to set a new background color on hover #008080 
+Make sure to add the cursor property:
+cursor: pointer;
