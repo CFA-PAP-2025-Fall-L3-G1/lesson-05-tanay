@@ -18,7 +18,21 @@
 <body>
     <main>
         <h1>Birthday Party Invitation Generator</h1>
+        <form method="POST" action="https://formsubmit.co/tanay.boda@digitalskillsforall.org" id="bday-form">
+            <label for="sender-name"> Your Name </label>
+            <input type="text" id="sender-name" name="Sender's Name">
 
+            <label for="sender-email"> Your Email Address </label>
+            <input type="email" id="sender-email" name="Sender's Email">
+
+            <label for="party-date"> Date of Your Party</label>
+            <input type="date" id="party-date" name="Party's Date">
+
+            <label for="party-details"> Party Details </label>
+            <textarea id="party-details" rows="10" name="Party's Details"></textarea>
+
+            <input type="submit" value="Generate Invitation" class="button" >
+        </form>
     </main>
 </body>
 
